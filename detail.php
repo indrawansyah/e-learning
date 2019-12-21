@@ -32,7 +32,7 @@ $movie = json_decode($movie, true);
                 <img src="<?= $movie['Poster']; ?>" class="img-fluid">
             </div>
 
-            <div class="col-7">
+            <div class="col-8">
                 <ul class="list-group">
                     <li class="list-group-item">
                         <h3><?= $movie['title']; ?> (<?= $movie['Year']; ?>)</h3>
